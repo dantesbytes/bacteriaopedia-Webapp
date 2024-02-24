@@ -1,8 +1,11 @@
 
+import Header from "./components/Header"; 
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl text-center font-bold underline">Bacteriaopedia version 1.0</h1>
+    <Header />
+      <h1 className="text-3xl text-center font-bold underline">Welcome</h1>
       </div>
   )
 
